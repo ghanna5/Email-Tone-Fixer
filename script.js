@@ -7,7 +7,7 @@ const output = document.getElementById("emailOutput")
 submitButton.addEventListener("click", emailGenerator)
 
 function emailGenerator() {
-    console.log("Selected tone: ", toneSelect.value)
-    console.log("Selected recipient: ", recipientSelect.value)
-    console.log("Email Input: ", input.value)
+    const prompt = "Rewrite the following email in a ${toneSelect.value} tone for a ${recipientSelect.value}: ${input.value}"
+
+    
 }
