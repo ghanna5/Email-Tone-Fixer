@@ -10,7 +10,7 @@ async function emailGenerator() {
     const prompt = `Rewrite the following email in a ${toneSelect.value} tone for a ${recipientSelect.value}: ${input.value}`
 
     apiURL = "https://api.anthropic.com/v1/messages"
-    const apiKey = "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"
+    const apiKey = "YOUR_API_KEY_HERE"
 
     response = await fetch(apiURL, {
         method: "POST",
